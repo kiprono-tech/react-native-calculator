@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "calculator",
+    "description": "Simple  react native Calculator Mobile App",
+    "slug": "react-native-calculator",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/app-icon.png",
+    "githubUrl":"https://github.com/jamalhassouni/react-native-calculator",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jamalh.calculator"
+    },
+    "android": {
+      "package": "com.jamalh.calculator",
+      "permissions":[
+           ""
+      ]
+    }
+  }
+}
